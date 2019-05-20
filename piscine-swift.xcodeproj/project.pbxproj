@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6529A74B228C3BF900D9ACDF /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529A74A228C3BF900D9ACDF /* CalculatorBrain.swift */; };
+		655114A322899310000A2FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655114A222899310000A2FE0 /* AppDelegate.swift */; };
+		655114A522899310000A2FE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655114A422899310000A2FE0 /* ViewController.swift */; };
+		655114A822899310000A2FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655114A622899310000A2FE0 /* Main.storyboard */; };
+		655114AA22899310000A2FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655114A922899310000A2FE0 /* Assets.xcassets */; };
+		655114AD22899310000A2FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655114AB22899310000A2FE0 /* LaunchScreen.storyboard */; };
+		655114B822899310000A2FE0 /* piscine_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655114B722899310000A2FE0 /* piscine_swiftTests.swift */; };
+		655114C322899310000A2FE0 /* piscine_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655114C222899310000A2FE0 /* piscine_swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655114B422899310000A2FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6551149722899310000A2FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6551149E22899310000A2FE0;
+			remoteInfo = "piscine-swift";
+		};
+		655114BF22899310000A2FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6551149722899310000A2FE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6551149E22899310000A2FE0;
+			remoteInfo = "piscine-swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6529A74A228C3BF900D9ACDF /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		6551149F22899310000A2FE0 /* piscine-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "piscine-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655114A222899310000A2FE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655114A422899310000A2FE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655114A722899310000A2FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655114A922899310000A2FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655114AC22899310000A2FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655114AE22899310000A2FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655114B322899310000A2FE0 /* piscine-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "piscine-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655114B722899310000A2FE0 /* piscine_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piscine_swiftTests.swift; sourceTree = "<group>"; };
+		655114B922899310000A2FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655114BE22899310000A2FE0 /* piscine-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "piscine-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655114C222899310000A2FE0 /* piscine_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piscine_swiftUITests.swift; sourceTree = "<group>"; };
+		655114C422899310000A2FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6551149C22899310000A2FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114B022899310000A2FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114BB22899310000A2FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6551149622899310000A2FE0 = {
+			isa = PBXGroup;
+			children = (
+				655114A122899310000A2FE0 /* piscine-swift */,
+				655114B622899310000A2FE0 /* piscine-swiftTests */,
+				655114C122899310000A2FE0 /* piscine-swiftUITests */,
+				655114A022899310000A2FE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655114A022899310000A2FE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6551149F22899310000A2FE0 /* piscine-swift.app */,
+				655114B322899310000A2FE0 /* piscine-swiftTests.xctest */,
+				655114BE22899310000A2FE0 /* piscine-swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655114A122899310000A2FE0 /* piscine-swift */ = {
+			isa = PBXGroup;
+			children = (
+				655114A222899310000A2FE0 /* AppDelegate.swift */,
+				655114A422899310000A2FE0 /* ViewController.swift */,
+				655114A622899310000A2FE0 /* Main.storyboard */,
+				655114A922899310000A2FE0 /* Assets.xcassets */,
+				655114AB22899310000A2FE0 /* LaunchScreen.storyboard */,
+				655114AE22899310000A2FE0 /* Info.plist */,
+				6529A74A228C3BF900D9ACDF /* CalculatorBrain.swift */,
+			);
+			path = "piscine-swift";
+			sourceTree = "<group>";
+		};
+		655114B622899310000A2FE0 /* piscine-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				655114B722899310000A2FE0 /* piscine_swiftTests.swift */,
+				655114B922899310000A2FE0 /* Info.plist */,
+			);
+			path = "piscine-swiftTests";
+			sourceTree = "<group>";
+		};
+		655114C122899310000A2FE0 /* piscine-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				655114C222899310000A2FE0 /* piscine_swiftUITests.swift */,
+				655114C422899310000A2FE0 /* Info.plist */,
+			);
+			path = "piscine-swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6551149E22899310000A2FE0 /* piscine-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655114C722899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swift" */;
+			buildPhases = (
+				6551149B22899310000A2FE0 /* Sources */,
+				6551149C22899310000A2FE0 /* Frameworks */,
+				6551149D22899310000A2FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "piscine-swift";
+			productName = "piscine-swift";
+			productReference = 6551149F22899310000A2FE0 /* piscine-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655114B222899310000A2FE0 /* piscine-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655114CA22899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swiftTests" */;
+			buildPhases = (
+				655114AF22899310000A2FE0 /* Sources */,
+				655114B022899310000A2FE0 /* Frameworks */,
+				655114B122899310000A2FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655114B522899310000A2FE0 /* PBXTargetDependency */,
+			);
+			name = "piscine-swiftTests";
+			productName = "piscine-swiftTests";
+			productReference = 655114B322899310000A2FE0 /* piscine-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		655114BD22899310000A2FE0 /* piscine-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655114CD22899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swiftUITests" */;
+			buildPhases = (
+				655114BA22899310000A2FE0 /* Sources */,
+				655114BB22899310000A2FE0 /* Frameworks */,
+				655114BC22899310000A2FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655114C022899310000A2FE0 /* PBXTargetDependency */,
+			);
+			name = "piscine-swiftUITests";
+			productName = "piscine-swiftUITests";
+			productReference = 655114BE22899310000A2FE0 /* piscine-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6551149722899310000A2FE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ryger rivers Wisozk";
+				TargetAttributes = {
+					6551149E22899310000A2FE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					655114B222899310000A2FE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6551149E22899310000A2FE0;
+					};
+					655114BD22899310000A2FE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6551149E22899310000A2FE0;
+					};
+				};
+			};
+			buildConfigurationList = 6551149A22899310000A2FE0 /* Build configuration list for PBXProject "piscine-swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6551149622899310000A2FE0;
+			productRefGroup = 655114A022899310000A2FE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6551149E22899310000A2FE0 /* piscine-swift */,
+				655114B222899310000A2FE0 /* piscine-swiftTests */,
+				655114BD22899310000A2FE0 /* piscine-swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6551149D22899310000A2FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655114AD22899310000A2FE0 /* LaunchScreen.storyboard in Resources */,
+				655114AA22899310000A2FE0 /* Assets.xcassets in Resources */,
+				655114A822899310000A2FE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114B122899310000A2FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114BC22899310000A2FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6551149B22899310000A2FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6529A74B228C3BF900D9ACDF /* CalculatorBrain.swift in Sources */,
+				655114A522899310000A2FE0 /* ViewController.swift in Sources */,
+				655114A322899310000A2FE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114AF22899310000A2FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655114B822899310000A2FE0 /* piscine_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655114BA22899310000A2FE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655114C322899310000A2FE0 /* piscine_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655114B522899310000A2FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6551149E22899310000A2FE0 /* piscine-swift */;
+			targetProxy = 655114B422899310000A2FE0 /* PBXContainerItemProxy */;
+		};
+		655114C022899310000A2FE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6551149E22899310000A2FE0 /* piscine-swift */;
+			targetProxy = 655114BF22899310000A2FE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655114A622899310000A2FE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655114A722899310000A2FE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655114AB22899310000A2FE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655114AC22899310000A2FE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655114C522899310000A2FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655114C622899310000A2FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655114C822899310000A2FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655114C922899310000A2FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655114CB22899310000A2FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piscine-swift.app/piscine-swift";
+			};
+			name = Debug;
+		};
+		655114CC22899310000A2FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piscine-swift.app/piscine-swift";
+			};
+			name = Release;
+		};
+		655114CE22899310000A2FE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "piscine-swift";
+			};
+			name = Debug;
+		};
+		655114CF22899310000A2FE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "piscine-swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "temixxx.piscine-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "piscine-swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6551149A22899310000A2FE0 /* Build configuration list for PBXProject "piscine-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655114C522899310000A2FE0 /* Debug */,
+				655114C622899310000A2FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655114C722899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655114C822899310000A2FE0 /* Debug */,
+				655114C922899310000A2FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655114CA22899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655114CB22899310000A2FE0 /* Debug */,
+				655114CC22899310000A2FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655114CD22899310000A2FE0 /* Build configuration list for PBXNativeTarget "piscine-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655114CE22899310000A2FE0 /* Debug */,
+				655114CF22899310000A2FE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6551149722899310000A2FE0 /* Project object */;
+}

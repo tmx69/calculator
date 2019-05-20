@@ -1,14 +1,14 @@
 //
-//  calculatorUITests.swift
-//  calculatorUITests
+//  piscine_swiftUITests.swift
+//  piscine-swiftUITests
 //
-//  Created by Ryger rivers Wisozk on 22/04/2019.
+//  Created by Ryger rivers Wisozk on 13/05/2019.
 //  Copyright © 2019 Ryger rivers Wisozk. All rights reserved.
 //
 
 import XCTest
 
-class calculatorUITests: XCTestCase {
+class piscine_swiftUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
