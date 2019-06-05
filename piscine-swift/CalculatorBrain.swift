@@ -19,11 +19,13 @@ class CalculatorBrain {
         "π" : Operation.Constant(Double.pi),
         "e": Operation.Constant(M_E),
         "√" : Operation.UnaryOperation(sqrt),
+        "±" : Operation.UnaryOperation({-$0}),
         "cos": Operation.UnaryOperation(cos),
         "×" : Operation.BinaryOperation({$0 * $1}),
         "÷" : Operation.BinaryOperation({$0 / $1}),
         "+" : Operation.BinaryOperation({$0 + $1}),
         "-" : Operation.BinaryOperation({$0 - $1}),
+        "." : Operation.Equals,
         "=" : Operation.Equals
         ]
     private enum Operation {
